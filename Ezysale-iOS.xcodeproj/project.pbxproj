@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA34F30B26B5B19200F27C6E /* Ezysale_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34F30A26B5B19200F27C6E /* Ezysale_iOSApp.swift */; };
+		FA34F30D26B5B19200F27C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34F30C26B5B19200F27C6E /* ContentView.swift */; };
+		FA34F30F26B5B19500F27C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA34F30E26B5B19500F27C6E /* Assets.xcassets */; };
+		FA34F31226B5B19500F27C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA34F31126B5B19500F27C6E /* Preview Assets.xcassets */; };
+		FA34F31D26B5B19500F27C6E /* Ezysale_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34F31C26B5B19500F27C6E /* Ezysale_iOSTests.swift */; };
+		FA34F32826B5B19500F27C6E /* Ezysale_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34F32726B5B19500F27C6E /* Ezysale_iOSUITests.swift */; };
+		FA62A70126B9634B00328A89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62A70026B9634B00328A89 /* HomeView.swift */; };
+		FA62A70326B9648900328A89 /* ProductListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62A70226B9648900328A89 /* ProductListRow.swift */; };
+		FA691F4A26BA9D5900DCC5BB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA691F4926BA9D5900DCC5BB /* Product.swift */; };
+		FA691F4D26BAA46F00DCC5BB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA691F4C26BAA46F00DCC5BB /* Kingfisher */; };
+		FA691F5026BAC6B700DCC5BB /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA691F4F26BAC6B700DCC5BB /* ProductViewModel.swift */; };
+		FA8C278C26BBFC140000F263 /* SpaceNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C278B26BBFC140000F263 /* SpaceNews.swift */; };
+		FA8C278E26BBFCFB0000F263 /* SpaceNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C278D26BBFCFB0000F263 /* SpaceNewsViewModel.swift */; };
+		FA8C279126BC06AD0000F263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA8C279026BC06AD0000F263 /* Alamofire */; };
+		FA97760926B7E1A900EB4246 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97760826B7E1A900EB4246 /* SignUpView.swift */; };
+		FA97760C26B7F37100EB4246 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97760B26B7F37100EB4246 /* MenuView.swift */; };
+		FA9B2AF626B6BD6000D81F13 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9B2AF526B6BD6000D81F13 /* SignInView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA34F31926B5B19500F27C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA34F2FF26B5B19100F27C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA34F30626B5B19200F27C6E;
+			remoteInfo = "Ezysale-iOS";
+		};
+		FA34F32426B5B19500F27C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA34F2FF26B5B19100F27C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA34F30626B5B19200F27C6E;
+			remoteInfo = "Ezysale-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA34F30726B5B19200F27C6E /* Ezysale-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ezysale-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA34F30A26B5B19200F27C6E /* Ezysale_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ezysale_iOSApp.swift; sourceTree = "<group>"; };
+		FA34F30C26B5B19200F27C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA34F30E26B5B19500F27C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA34F31126B5B19500F27C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA34F31326B5B19500F27C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA34F31826B5B19500F27C6E /* Ezysale-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ezysale-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA34F31C26B5B19500F27C6E /* Ezysale_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ezysale_iOSTests.swift; sourceTree = "<group>"; };
+		FA34F31E26B5B19500F27C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA34F32326B5B19500F27C6E /* Ezysale-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ezysale-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA34F32726B5B19500F27C6E /* Ezysale_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ezysale_iOSUITests.swift; sourceTree = "<group>"; };
+		FA34F32926B5B19500F27C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA62A70026B9634B00328A89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA62A70226B9648900328A89 /* ProductListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRow.swift; sourceTree = "<group>"; };
+		FA691F4926BA9D5900DCC5BB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FA691F4F26BAC6B700DCC5BB /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		FA8C278B26BBFC140000F263 /* SpaceNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNews.swift; sourceTree = "<group>"; };
+		FA8C278D26BBFCFB0000F263 /* SpaceNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNewsViewModel.swift; sourceTree = "<group>"; };
+		FA97760826B7E1A900EB4246 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA97760B26B7F37100EB4246 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FA9B2AF526B6BD6000D81F13 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA34F30426B5B19200F27C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA691F4D26BAA46F00DCC5BB /* Kingfisher in Frameworks */,
+				FA8C279126BC06AD0000F263 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F31526B5B19500F27C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F32026B5B19500F27C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA34F2FE26B5B19100F27C6E = {
+			isa = PBXGroup;
+			children = (
+				FA34F30926B5B19200F27C6E /* Ezysale-iOS */,
+				FA34F31B26B5B19500F27C6E /* Ezysale-iOSTests */,
+				FA34F32626B5B19500F27C6E /* Ezysale-iOSUITests */,
+				FA34F30826B5B19200F27C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA34F30826B5B19200F27C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA34F30726B5B19200F27C6E /* Ezysale-iOS.app */,
+				FA34F31826B5B19500F27C6E /* Ezysale-iOSTests.xctest */,
+				FA34F32326B5B19500F27C6E /* Ezysale-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA34F30926B5B19200F27C6E /* Ezysale-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA691F4E26BAC69A00DCC5BB /* ViewModel */,
+				FA691F4626BA9D3500DCC5BB /* Models */,
+				FA9B2AF326B6BCF600D81F13 /* Views */,
+				FA9B2AF426B6BD0700D81F13 /* SwiftUIAppDelegate */,
+				FA34F30E26B5B19500F27C6E /* Assets.xcassets */,
+				FA34F31326B5B19500F27C6E /* Info.plist */,
+				FA34F31026B5B19500F27C6E /* Preview Content */,
+			);
+			path = "Ezysale-iOS";
+			sourceTree = "<group>";
+		};
+		FA34F31026B5B19500F27C6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA34F31126B5B19500F27C6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA34F31B26B5B19500F27C6E /* Ezysale-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA34F31C26B5B19500F27C6E /* Ezysale_iOSTests.swift */,
+				FA34F31E26B5B19500F27C6E /* Info.plist */,
+			);
+			path = "Ezysale-iOSTests";
+			sourceTree = "<group>";
+		};
+		FA34F32626B5B19500F27C6E /* Ezysale-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA34F32726B5B19500F27C6E /* Ezysale_iOSUITests.swift */,
+				FA34F32926B5B19500F27C6E /* Info.plist */,
+			);
+			path = "Ezysale-iOSUITests";
+			sourceTree = "<group>";
+		};
+		FA691F4626BA9D3500DCC5BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA8C278B26BBFC140000F263 /* SpaceNews.swift */,
+				FA691F4926BA9D5900DCC5BB /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA691F4E26BAC69A00DCC5BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA691F4F26BAC6B700DCC5BB /* ProductViewModel.swift */,
+				FA8C278D26BBFCFB0000F263 /* SpaceNewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA97760A26B7F35F00EB4246 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA97760B26B7F37100EB4246 /* MenuView.swift */,
+				FA62A70226B9648900328A89 /* ProductListRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA9B2AF326B6BCF600D81F13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA97760A26B7F35F00EB4246 /* Components */,
+				FA34F30C26B5B19200F27C6E /* ContentView.swift */,
+				FA9B2AF526B6BD6000D81F13 /* SignInView.swift */,
+				FA97760826B7E1A900EB4246 /* SignUpView.swift */,
+				FA62A70026B9634B00328A89 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA9B2AF426B6BD0700D81F13 /* SwiftUIAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA34F30A26B5B19200F27C6E /* Ezysale_iOSApp.swift */,
+			);
+			path = SwiftUIAppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA34F30626B5B19200F27C6E /* Ezysale-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA34F32C26B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOS" */;
+			buildPhases = (
+				FA34F30326B5B19200F27C6E /* Sources */,
+				FA34F30426B5B19200F27C6E /* Frameworks */,
+				FA34F30526B5B19200F27C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ezysale-iOS";
+			packageProductDependencies = (
+				FA691F4C26BAA46F00DCC5BB /* Kingfisher */,
+				FA8C279026BC06AD0000F263 /* Alamofire */,
+			);
+			productName = "Ezysale-iOS";
+			productReference = FA34F30726B5B19200F27C6E /* Ezysale-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA34F31726B5B19500F27C6E /* Ezysale-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA34F32F26B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOSTests" */;
+			buildPhases = (
+				FA34F31426B5B19500F27C6E /* Sources */,
+				FA34F31526B5B19500F27C6E /* Frameworks */,
+				FA34F31626B5B19500F27C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA34F31A26B5B19500F27C6E /* PBXTargetDependency */,
+			);
+			name = "Ezysale-iOSTests";
+			productName = "Ezysale-iOSTests";
+			productReference = FA34F31826B5B19500F27C6E /* Ezysale-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA34F32226B5B19500F27C6E /* Ezysale-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA34F33226B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOSUITests" */;
+			buildPhases = (
+				FA34F31F26B5B19500F27C6E /* Sources */,
+				FA34F32026B5B19500F27C6E /* Frameworks */,
+				FA34F32126B5B19500F27C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA34F32526B5B19500F27C6E /* PBXTargetDependency */,
+			);
+			name = "Ezysale-iOSUITests";
+			productName = "Ezysale-iOSUITests";
+			productReference = FA34F32326B5B19500F27C6E /* Ezysale-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA34F2FF26B5B19100F27C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA34F30626B5B19200F27C6E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FA34F31726B5B19500F27C6E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA34F30626B5B19200F27C6E;
+					};
+					FA34F32226B5B19500F27C6E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA34F30626B5B19200F27C6E;
+					};
+				};
+			};
+			buildConfigurationList = FA34F30226B5B19100F27C6E /* Build configuration list for PBXProject "Ezysale-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA34F2FE26B5B19100F27C6E;
+			packageReferences = (
+				FA691F4B26BAA46F00DCC5BB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA8C278F26BC06AD0000F263 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = FA34F30826B5B19200F27C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA34F30626B5B19200F27C6E /* Ezysale-iOS */,
+				FA34F31726B5B19500F27C6E /* Ezysale-iOSTests */,
+				FA34F32226B5B19500F27C6E /* Ezysale-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA34F30526B5B19200F27C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA34F31226B5B19500F27C6E /* Preview Assets.xcassets in Resources */,
+				FA34F30F26B5B19500F27C6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F31626B5B19500F27C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F32126B5B19500F27C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA34F30326B5B19200F27C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97760C26B7F37100EB4246 /* MenuView.swift in Sources */,
+				FA8C278C26BBFC140000F263 /* SpaceNews.swift in Sources */,
+				FA691F4A26BA9D5900DCC5BB /* Product.swift in Sources */,
+				FA8C278E26BBFCFB0000F263 /* SpaceNewsViewModel.swift in Sources */,
+				FA62A70326B9648900328A89 /* ProductListRow.swift in Sources */,
+				FA97760926B7E1A900EB4246 /* SignUpView.swift in Sources */,
+				FA9B2AF626B6BD6000D81F13 /* SignInView.swift in Sources */,
+				FA691F5026BAC6B700DCC5BB /* ProductViewModel.swift in Sources */,
+				FA62A70126B9634B00328A89 /* HomeView.swift in Sources */,
+				FA34F30D26B5B19200F27C6E /* ContentView.swift in Sources */,
+				FA34F30B26B5B19200F27C6E /* Ezysale_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F31426B5B19500F27C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA34F31D26B5B19500F27C6E /* Ezysale_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34F31F26B5B19500F27C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA34F32826B5B19500F27C6E /* Ezysale_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA34F31A26B5B19500F27C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA34F30626B5B19200F27C6E /* Ezysale-iOS */;
+			targetProxy = FA34F31926B5B19500F27C6E /* PBXContainerItemProxy */;
+		};
+		FA34F32526B5B19500F27C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA34F30626B5B19200F27C6E /* Ezysale-iOS */;
+			targetProxy = FA34F32426B5B19500F27C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA34F32A26B5B19500F27C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA34F32B26B5B19500F27C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA34F32D26B5B19500F27C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ezysale-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ezysale-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA34F32E26B5B19500F27C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ezysale-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ezysale-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA34F33026B5B19500F27C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ezysale-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ezysale-iOS.app/Ezysale-iOS";
+			};
+			name = Debug;
+		};
+		FA34F33126B5B19500F27C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ezysale-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ezysale-iOS.app/Ezysale-iOS";
+			};
+			name = Release;
+		};
+		FA34F33326B5B19500F27C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ezysale-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ezysale-iOS";
+			};
+			name = Debug;
+		};
+		FA34F33426B5B19500F27C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ezysale-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsshaps.test.Ezysale-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ezysale-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA34F30226B5B19100F27C6E /* Build configuration list for PBXProject "Ezysale-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA34F32A26B5B19500F27C6E /* Debug */,
+				FA34F32B26B5B19500F27C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA34F32C26B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA34F32D26B5B19500F27C6E /* Debug */,
+				FA34F32E26B5B19500F27C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA34F32F26B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA34F33026B5B19500F27C6E /* Debug */,
+				FA34F33126B5B19500F27C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA34F33226B5B19500F27C6E /* Build configuration list for PBXNativeTarget "Ezysale-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA34F33326B5B19500F27C6E /* Debug */,
+				FA34F33426B5B19500F27C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA691F4B26BAA46F00DCC5BB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		FA8C278F26BC06AD0000F263 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA691F4C26BAA46F00DCC5BB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA691F4B26BAA46F00DCC5BB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FA8C279026BC06AD0000F263 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA8C278F26BC06AD0000F263 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA34F2FF26B5B19100F27C6E /* Project object */;
+}
